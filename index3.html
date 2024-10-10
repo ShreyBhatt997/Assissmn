@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+<body>
+    <h1>Feedback Form</h1>
+    <form action="">
+        <select name="feedback" id="feedbach">
+            <option value="general">general</option>
+            <option value="bugs">Report a bug</option>
+            <option value="suggestions">suggestion</option>
+
+        </select>
+        <br>
+        <br>
+        <label for="message">message</label>
+        <input type="text" placeholder = "enter the message">
+        <br><br>
+        <label>Website Rating:</label>
+        <input type="radio" id="rating1" name="rating" value="1"> <label for="rating1">1</label>
+        <input type="radio" id="rating2" name="rating" value="2"> <label for="rating2">2</label>
+        <input type="radio" id="rating3" name="rating" value="3"> <label for="rating3">3</label>
+        <input type="radio" id="rating4" name="rating" value="4"> <label for="rating4">4</label>
+        <input type="radio" id="rating5" name="rating" value="5"> <label for="rating5">5</label>
+        <br><br>
+        <label for="age">Your Age:</label>
+        <input type="Number" min="10" max="100">
+        <br><br>
+        <label for="email">Email (required):</label>
+        <input type="email" placeholder="enter the email" required>
+        <br><br>
+        <label for="password">password(minimun length 8)</label>
+        <input type="password" placeholder="enter password" min="8">
+        <br><br>
+        <label for="url">url:</label>
+        <input type="url" placeholder="enter the url">
+        <br><br>
+        <label for="trems and condistions">terms and condistion</label>
+        <input type="checkbox">
+        <br><br>
+        <button type="submit">submit</button>
+    </form>
+    
+</body>
+</html>
